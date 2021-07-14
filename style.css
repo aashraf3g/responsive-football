@@ -104,63 +104,8 @@ players content part
     height: 357px;
     margin: 165px 156px 0 69px;
 }
-/**********Extra Part********/
 
-.extra-items{
-    margin-top: 100px;
-}
 
-.extra-info{
-    display: flex;
-    background-color: #2D25A0;
-    width: 1440px;
-    height: 300px;
-}
-
-.extra-title{
-   margin: 20px 0 10px 180px;
-}
-.extra-heading{
-    font-size: 32px;
-    color: #FFFFFF;
-}
-.extra-img{
-    margin: 70px;
-}
-/* ***extra part:02*** */
-
-.news-heading{
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    margin: 100px 0 20px 0;
-}
-
-.news-channels{
-    display: flex;
-    margin-left: 110px;
-}
-
-.img-channel{
-    width: 300px ;
-    height: 250px;
-}
-
-.goal-img{
-    box-shadow: 0 0 100px #0a063a;
-}
-
-.espn-img{
-    box-shadow: 0 0 100px #b10917;
-}
-
-.bbc-img{
-    box-shadow: 0 0 100px #e7c00f;
-}
-
-.button-extra{
-    margin-left: 60px;
-}
 
 /* *****footer part */
 .footer-img img{
