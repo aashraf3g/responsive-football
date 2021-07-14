@@ -100,8 +100,8 @@ players content part
 }
 
 .match img{
-    width: 567px;
-    height: 427px;
+    width: 487px;
+    height: 357px;
     margin: 165px 156px 0 69px;
 }
 /**********Extra Part********/
@@ -127,11 +127,58 @@ players content part
 .extra-img{
     margin: 70px;
 }
-.logo-football{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 220px;
+/* ***extra part:02*** */
 
+.news-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 100px 0 20px 0;
+}
+
+.news-channels{
+    display: flex;
+    margin-left: 110px;
+}
+
+.img-channel{
+    width: 300px ;
+    height: 250px;
+}
+
+.goal-img{
+    box-shadow: 0 0 100px #0a063a;
+}
+
+.espn-img{
+    box-shadow: 0 0 100px #b10917;
+}
+
+.bbc-img{
+    box-shadow: 0 0 100px #e7c00f;
+}
+
+.button-extra{
+    margin-left: 60px;
+}
+
+/* *****footer part */
+.footer-img img{
+    width: 484px;
+    height: 214px;
+    margin: 100px 482px 0 400px;
+}
+
+.footer-icon{
+    width: 172px;
+    height: 32px;
+    margin: 0 0 0 600px;
+}
+
+.footer-link{
+    padding: 0 10px;
+    color: gray;
+}
+.copyright{
+    margin: 0 0 63px 570px;
 }
