@@ -7,6 +7,49 @@ body{
     font-family: 'Poppins',
     sans-serif;
 }
+/********* navigation part ***********/
+
+
+header{
+    background-color: #2D25A0;
+    width: 1440px;
+}
+.navs-header{
+    display: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1160px;
+    height: 44px;
+    padding: 42px 0 66px 156px;
+
+}
+
+.navs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.nav{
+    padding: 0 30px;
+    font-size: 16px;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.login{
+    width: 123px;
+}
+
+.button-nav{
+    width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+
 /********* banner part ***********/
 
 .banner{
@@ -106,7 +149,6 @@ players content part
 }
 
 
-
 /* *****footer part */
 .footer-img img{
     width: 484px;
@@ -126,4 +168,89 @@ players content part
 }
 .copyright{
     margin: 0 0 63px 570px;
+}
+
+/* ******mobile device***** */
+
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+
+        /* ******header part */
+
+    }
+    header{
+        display: none;
+    }
+
+    /* ******banner part**** */
+
+    .banner:hover .banner-info{
+        display: none;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-title{
+        width: 270px;
+        height: 130px;
+        font-size: 32px;
+        margin: 112px 60px 0 16px;
+    }
+
+    .button-banner{
+        margin: 30px 170px 0 20px ;
+    }
+    .banner-img img{
+        width: 320px;
+        height: 250px;
+        margin: 50px 16px 60px 16px;
+    }
+
+    /* ********Players part******* */
+
+
+    .players-box, .match-info{
+        margin: 50px 15px 0 16px;
+    }    
+    .courses, .blogs, .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    .match{
+        display: flex;
+        flex-direction: column;
+    }
+    .match img{
+        width: 300px;
+        height: 250px;
+        margin: 50px 15px 0 16px;
+    }
+
+    /* *******footer part******* */
+
+    .footer-img img {
+        width: 200px;
+        height: 80px;
+        margin: 10px 0 10px 55px;
+    }
+
+    .footer-icon {
+        width: 172px;
+        height: 32px;
+        margin: 0 0 0 90px;
+    }
+
+    .footer-link {
+        padding: 0 10px;
+        color: gray;
+    }
+
+    .copyright {
+        margin: 0 0 63px 70px;
+    }
 }
